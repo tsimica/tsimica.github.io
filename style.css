@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #283149;
+  font-family: Raleway, Georgia, "Times New Roman", Times, serif;
+}
+
+body,
+main,
+div {
+  display: flex;
+  flex: 1;
+}
+
+div {
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  letter-spacing: 0.45rem;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #dbedf3;
+}
